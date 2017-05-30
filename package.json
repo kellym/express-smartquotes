@@ -1,0 +1,35 @@
+{
+  "name": "express-smartquotes",
+  "version": "1.0.0",
+  "description": "Express middleware to empower smart people to use smart quotes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kellym/express-smartquotes.git"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "smart",
+    "quotes"
+  ],
+  "author": "Kelly Martin <kellymartinv@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kellym/express-smartquotes/issues"
+  },
+  "homepage": "https://github.com/kellym/express-smartquotes#readme",
+  "dependencies": {
+    "express-interceptor": "^1.2.0",
+    "parse5": "^3.0.2",
+    "smartquotes": "^2.1.0"
+  },
+  "devDependencies": {
+    "express": "^4.15.3",
+    "supertest": "^3.0.0",
+    "tap": "^10.3.2"
+  }
+}
