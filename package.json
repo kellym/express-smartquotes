@@ -1,6 +1,6 @@
 {
   "name": "express-smartquotes",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Express middleware to empower smart people to use smart quotes.",
   "main": "index.js",
   "scripts": {
